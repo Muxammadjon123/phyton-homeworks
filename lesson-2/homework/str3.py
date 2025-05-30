@@ -1,0 +1,5 @@
+text=input("Please enter the text:")
+print(len(text))
+upp=text.upper()
+lw=text.lower()
+print(upp,lw,sep="_")
