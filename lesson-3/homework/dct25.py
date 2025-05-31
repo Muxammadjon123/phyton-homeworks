@@ -1,0 +1,9 @@
+dct={
+    'c':'apple',
+    'e':'banana',
+    'd':'carrot',
+    'b':'dragon',
+    'a':'egg'
+}
+lst=list(dct.items())
+print(lst[0])

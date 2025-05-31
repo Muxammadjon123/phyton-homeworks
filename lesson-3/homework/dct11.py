@@ -1,0 +1,9 @@
+dct={
+    'a':'apple',
+    'b':'banana',
+    'c':'carrot',
+    'd':'dragon',
+    'e':'egg'
+}
+dct.update({'a':"ananas"})
+print(dct)
