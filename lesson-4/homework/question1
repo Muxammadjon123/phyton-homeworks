@@ -1,0 +1,5 @@
+What is the difference between the continue and break statements in Python?
+
+ANSWER:
+skips the rest of iteration=continue
+exits the loop completely=break

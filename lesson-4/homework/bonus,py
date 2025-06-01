@@ -1,0 +1,30 @@
+import random
+human_points=0
+computer_points=0
+choice=["qog'oz",'qaychi','quduq']
+while computer_points<5 or human_points<5:
+    computer_choice=random.choice(["qog'oz",'qaychi','quduq'])
+    human_choice=input("Qani ketdu do'stim tanla:")
+    if human_choice in choice:
+        if computer_choice=="qog'oz" and human_choice=="quduq":
+            computer_points+=1
+            print(f"Kompyuter yutdi tog'o, computer: {computer_points}, human:{human_points}")
+        elif computer_choice=="qaychi" and human_choice=="qog'oz":
+            computer_points+=1
+            print(f"Kompyuter yutdi tog'o, computer: {computer_points}, human:{human_points}")
+        elif computer_choice=="quduq" and human_choice=="qaychi":
+            computer_points+=1
+            print(f"Kompyuter yutdi tog'o, computer: {computer_points}, human:{human_points}")
+        elif human_choice=="qog'oz" and computer_choice=="quduq":
+            human_points+=1
+            print(f"Siz yutdiz tog'o, computer: {computer_points}, human:{human_points}")
+        elif human_choice=="qaychi" and computer_choice=="qog'oz":
+            human_points+=1
+            print(f"Siz yutdiz tog'o, computer: {computer_points}, human:{human_points}")
+        elif human_choice=="quduq" and computer_choice=="qaychi":
+            human_points+=1
+            print(f"Siz yutdiz tog'o, computer: {computer_points}, human:{human_points}")
+        elif human_choice==computer_choice:
+            print(f"Durrang tog'o, computer: {computer_points}, human:{human_points}")            
+
+

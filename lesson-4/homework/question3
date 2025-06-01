@@ -1,0 +1,7 @@
+How would you implement a nested for loop system? Provide an example.
+
+Nested loop means placing the one loop inside other.
+
+For example:
+for outer in range(outer_limit):
+    for inner in range(inner_limit):
