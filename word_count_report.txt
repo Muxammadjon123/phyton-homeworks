@@ -1,0 +1,8 @@
+Word Count Report
+Total Words: 294
+Top 10 Words:
+is - 14
+the - 13
+love - 11
+in - 10
+and - 9
