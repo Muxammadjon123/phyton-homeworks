@@ -38,3 +38,4 @@ a3=Animal3("Sheep","B")
 print(a1.walking())
 print(a2.eating())
 print(a3.sleeping())
+
